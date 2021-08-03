@@ -10,7 +10,7 @@ body {
   text-align: center;
 }
 .nav {
-  padding:20px;
+  padding:10px;
   background-color: #ac825b;
 }
 .split {
@@ -24,10 +24,6 @@ body {
   display: table;
   clear: both;
 }
-/* @media (max-width:100px) {
-  .split {
-    width: 100%;
-  } */
 
 .sidebar {
 height:100%;
@@ -40,10 +36,24 @@ background-color: #6a80bd;
   position: absolute;
   top:0px;right:110px;
 }
-#main4 {
+.EventCal {
   position:absolute;
   top:500px;
 }
+@media screen and (max-width:40em) {
+  .sidebar {
+    top:500PX;
+    width:100%;
+  }
+  .EventCal {
+    position:absolute;
+    top:1000px;
+  }
+  .split{
+    width:100%;
+  }
+}
+
 
 /* body {
     background-color:#636b78;
