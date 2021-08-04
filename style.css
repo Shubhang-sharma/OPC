@@ -4,7 +4,6 @@
  body {
   margin: 0;
   color:white;
-
 }
 
 canvas {
@@ -45,6 +44,7 @@ background-color: #6a80bd;
 .EventCal {
   position:absolute;
   top:500px;
+  /* float: inherit; */
 }
 @media screen and (max-width:40em) {
   .sidebar {
@@ -63,9 +63,20 @@ background-color: #6a80bd;
   /* background-color: #cf8c55; */
   border-radius: 12px;
 }
-.split {
-
-
-
-
+.split>p {
+  background-color: rgba(255,255,255,0.1);
+  padding:20px;
+  border-radius: 2px;
+  color: white;
 }
+.split>h2 {
+  padding-left: 22px;
+}
+
+div{
+  z-index: 0;
+  background-color: rgb(0, 0, 0);
+}
+/* div {
+  background-color: rgba(0,0,0,0.3);
+} */

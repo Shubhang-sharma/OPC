@@ -14,7 +14,7 @@ function setup() {
   image(bbg,0,0);
   filter(BLUR,3);
   canvas.style('z-index','-1');
-  for(j=0;j<50;j++){
+  for(j=0;j<15;j++){
       x = random(0,windowWidth);
       y = random(0,windowHeight);
       z = random(10,30);
@@ -22,12 +22,10 @@ function setup() {
   }
 }
 function draw(){
-  background(20);
+  background(0);
   for (i = 0; i < nodes.length; i++) {
     nodes[i].make();
     nodes[i].random();
-    // nodes[i].dsize();
-  // image(DNA,00,0);
   }
 
   // setAlpha(50);
