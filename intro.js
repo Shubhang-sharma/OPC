@@ -8,4 +8,4 @@
 //   show();
 // });
 
-document.querySelector("#logo").style.backgroundColor = "red";
+// document.querySelector("#logo").style.backgroundColor = "red";
