@@ -1,7 +1,6 @@
-html, body {
-  margin: 0;
-  padding: 0;
-}
+
 canvas {
-  display: block;
+  position: absolute;
+  top:280px;left:0px;
+  z-index: -1;
 }
