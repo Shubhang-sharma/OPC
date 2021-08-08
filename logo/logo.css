@@ -6,10 +6,10 @@
   position: absolute;
   top:0px; left:50%;
   width: 100px; height: 100px;
-  z-index: 5;
+  z-index: 103;
 }
 #logo2{
-  z-index: 4;
+  z-index: 102;
 }
 .banner{
   background-color: #223a5f;
@@ -17,5 +17,5 @@
   top:45px;
   height:10px;
   width: 100%;
-  z-index: 3;
+  z-index: 101;
 }

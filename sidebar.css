@@ -1,15 +1,31 @@
 .sidebar{
   position: fixed;
   right:0px;top:0px;
-  width:25%;
+  width:0;
   height:inherit;
   background-color: #194e69;
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
   float: left;
   z-index: 500;
+  transition: 0.5s;
   /* flex-shrink: 1; */
   /* if content is more than some extent then a footer is visible... */
 }
+
+.closebar{
+  position: fixed;
+  top:0; left:0px;
+  padding: 5px;
+  font-size: 28px;
+  width:35px;
+  height:100%;
+  color: white;
+  border:0px;
+}
+.closebar:hover{
+  background-color:#2a5068eb;
+}
+
 @media screen and (max-width:50em) {
   .sidebar{
    position: relative;
@@ -27,11 +43,12 @@
   backdrop-filter:blur(1px);
   box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.2);
   text-align: center;
-  display: flex;
   justify-content: center;
-
+  transition: 0.3s;
 }
-
+.sheader>h4{
+  padding: 10px;
+}
 
 .scontent{
   position: relative;
@@ -39,6 +56,8 @@
   padding: 2px;
   max-height:100vh;
   overflow-x: hidden;
-  overflow-y: scroll;
+  overflow-y: auto;
+  transition: 0.3s;
+
   /* z-index: -100; */
 }
