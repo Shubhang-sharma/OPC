@@ -1,6 +1,6 @@
 .sidebar{
   position: fixed;
-  right:0px;top:0px;
+  right:0px;top:9vh;
   width:0;
   height:inherit;
   background-color: #194e69;
@@ -28,8 +28,7 @@
 
 @media screen and (max-width:50em) {
   .sidebar{
-   position: relative;
-   width:100%
+   width:0;
  }
 
 }
