@@ -14,9 +14,8 @@ function closebar() {
   // document.querySelector(".ans").style.right= "0%";
   document.querySelector('.ans').style.width = "50px";
 
-
-
 }
+
 
 // document.addEventListener('DOMContentLoaded', function() {
 //     document.querySelector(".ans").onclick = hide;

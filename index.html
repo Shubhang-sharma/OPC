@@ -5,7 +5,8 @@
   <title>NISER Outreach Committee</title>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" charset="utf-8"></script>
+  <script src="https://unpkg.com/browse/popper.js@1.12.8/dist/popper.min.js" charset="utf-8"></script>
   <!-- <script src="Bg/p5.js"></script>
   <script src="Bg/p5.sound.min.js"></script> -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -120,25 +121,8 @@
   </div>
   <div class="EventCal" id="main4">
     <h2>Event Calendar</h2>
-    <canvas id="nodework">
-      <!-- <p>something goes here</p> -->
-    </canvas>
   </div>
-<script>
-var canvas = document.getElementById('nodework');
-width = canvas.width = window.innerWidth;
-console.log(width);
-var heightRatio = 0.7;
-height = canvas.height = canvas.width * heightRatio
-console.log(height);
-const ctx = canvas.getContext('2d');
-canvas.style.zindex = 100000;
-// ctx.fillStyle = '#1c3e51';
-// ctx.circle(width/2,height/2,50);
-ctx.fillStyle = 'rgb(0, 0, 0)';
-// ctx.beginPath();
-ctx.arc(700,500, 50, 0, 2 * Math.PI);
-ctx.stroke();
-</script>
+
+  </script>
 
 </body>
